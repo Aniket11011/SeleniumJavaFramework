@@ -22,6 +22,13 @@ public class Practice {
 			System.out.println("User searched");
 		}
 		
+		@Test(priority = 3)
+		public void testinglogin() {
+			
+			
+			System.out.println("User done adv search");
+		}
+		
 		
 		@Test(priority=1)
 		public void Advsearch() {
