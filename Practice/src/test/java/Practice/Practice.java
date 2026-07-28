@@ -39,11 +39,13 @@ public class Practice {
 		}
 		
 		@AfterClass
-		public void logout() {
+		public void logout() throws InterruptedException {
 			
 			System.out.println("User logged out");
 			System.out.println("Welcome message displayed correctly");
 			System.out.println("logo Displayed");
+			Thread.sleep(2000);
+			System.out.println("logo should not be Displayed");
 			
 		}
 
