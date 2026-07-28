@@ -44,6 +44,7 @@ public class Practice {
 			System.out.println("User logged out");
 			System.out.println("Welcome message displayed correctly");
 			System.out.println("logo Displayed");
+			System.out.println("logo should not be Displayed");
 			
 		}
 
